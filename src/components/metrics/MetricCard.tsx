@@ -7,6 +7,7 @@ interface MetricCardProps {
 }
 
 const MetricCard: React.FC<MetricCardProps> = ({ title, value, type }) => {
+ console.log(type);
   return (
     <div className="card metric-card">
       <div className="card__body">

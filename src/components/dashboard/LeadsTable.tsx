@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Lead, LeadWithCalculations } from '@/types';
+import { Lead } from '@/types';
 import { useLeads } from '@/context/LeadsContext';
 import { addCalculationsToLeads, sortLeads } from '@/utils/calculations';
 import { formatDate } from '@/utils/dateUtils';
